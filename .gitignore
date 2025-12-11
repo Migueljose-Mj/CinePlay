@@ -1,0 +1,3 @@
+# Dependências e arquivos de ambiente
+node_modules/
+.env

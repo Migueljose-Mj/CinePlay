@@ -1,0 +1,17 @@
+{
+  "name": "meu-explorador-filmes",
+  "version": "1.0.0",
+  "description": "Um explorador de filmes com backend para proteger a chave de API.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
