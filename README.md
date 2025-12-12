@@ -1,6 +1,4 @@
-#  CinePlay - Explorador de Filmes e Séries 🎬
-
-![Licença](https://img.shields.io/badge/license-ISC-blue.svg)
+# CinePlay - Explorador de Filmes e Séries 🎬
 
 Um explorador de conteúdo audiovisual que permite aos usuários pesquisar filmes e séries, além de visualizar seus detalhes. O projeto utiliza um backend em Node.js para proteger a chave da API do OMDb, garantindo que ela não seja exposta no lado do cliente.
 
@@ -70,9 +68,4 @@ Siga os passos abaixo para rodar a aplicação no seu ambiente de desenvolviment
 
 5.  Abra seu navegador e acesse `http://localhost:3000`.
 
----
-
-## 📄 Licença
-
-Este projeto está sob a licença ISC.
 
