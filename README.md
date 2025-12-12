@@ -1,8 +1,8 @@
-#  CinePlay - Explorador de Filmes 🎬
+#  CinePlay - Explorador de Filmes e Séries 🎬
 
 ![Licença](https://img.shields.io/badge/license-ISC-blue.svg)
 
-Um explorador de filmes simples e funcional que permite aos usuários pesquisar filmes e ver seus detalhes. O projeto utiliza um backend em Node.js para proteger a chave da API do OMDb, garantindo que ela não seja exposta no lado do cliente.
+Um explorador de conteúdo audiovisual que permite aos usuários pesquisar filmes e séries, além de visualizar seus detalhes. O projeto utiliza um backend em Node.js para proteger a chave da API do OMDb, garantindo que ela não seja exposta no lado do cliente.
 
 ---
 
@@ -16,9 +16,9 @@ A aplicação está no ar e pode ser acessada através do seguinte link:
 
 ## ✨ Funcionalidades Principais
 
-- **Busca de Filmes:** Pesquise filmes por título.
-- **Detalhes do Filme:** Clique em um filme para ver informações detalhadas, como enredo, diretor, elenco e avaliação.
-- **Filmes em Destaque:** A página inicial exibe uma lista de filmes populares pré-selecionados.
+- **Busca Abrangente:** Pesquise filmes e séries por título.
+- **Detalhes Completos:** Clique em um item para ver informações detalhadas, como enredo, diretor, elenco e avaliação.
+- **Conteúdo em Destaque:** A página inicial exibe uma lista de filmes populares pré-selecionados.
 - **Backend Seguro:** Um servidor Express atua como um proxy seguro, fazendo as requisições para a API OMDb e protegendo a chave de acesso.
 
 ---
