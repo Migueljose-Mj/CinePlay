@@ -1,43 +1,54 @@
-# Meu Explorador de Filmes
+#  CinePlay - Explorador de Filmes 🎬
 
-Uma aplicação web simples e elegante, inspirada na Netflix, para buscar informações sobre filmes e séries utilizando a API OMDb.
+![Licença](https://img.shields.io/badge/license-ISC-blue.svg)
 
-**[Veja a demonstração ao vivo!] (link-para-o-seu-site-no-render-aqui)** _(Você poderá adicionar este link depois que publicarmos o site)_
+Um explorador de filmes simples e funcional que permite aos usuários pesquisar filmes e ver seus detalhes. O projeto utiliza um backend em Node.js para proteger a chave da API do OMDb, garantindo que ela não seja exposta no lado do cliente.
 
 ---
 
-## ✨ Funcionalidades
+## 🚀 Deploy
 
-*   **Busca Dinâmica:** Encontre filmes e séries por título.
-*   **Visualização em Grade:** Resultados exibidos em um layout de cartões moderno.
-*   **Detalhes Completos:** Clique em um filme para ver informações detalhadas como enredo, avaliação, diretor e elenco em uma janela modal.
-*   **Paginação:** Navegue facilmente por múltiplas páginas de resultados.
-*   **Segurança:** A chave da API é protegida em um servidor backend, não ficando exposta no código do cliente.
+A aplicação está no ar e pode ser acessada através do seguinte link:
+
+**[https://cineplay-j3ly.onrender.com](https://cineplay-j3ly.onrender.com)**
+
+---
+
+## ✨ Funcionalidades Principais
+
+- **Busca de Filmes:** Pesquise filmes por título.
+- **Detalhes do Filme:** Clique em um filme para ver informações detalhadas, como enredo, diretor, elenco e avaliação.
+- **Filmes em Destaque:** A página inicial exibe uma lista de filmes populares pré-selecionados.
+- **Backend Seguro:** Um servidor Express atua como um proxy seguro, fazendo as requisições para a API OMDb e protegendo a chave de acesso.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-*   **Frontend:**
-    *   HTML5
-    *   CSS3 (com Variáveis, Flexbox e Grid)
-    *   JavaScript (ES6+)
-*   **Backend:**
-    *   Node.js
-    *   Express.js
-*   **API:**
-    *   [OMDb API (The Open Movie Database)](https://www.omdbapi.com/)
+- **Backend:**
+  - [Node.js](https://nodejs.org/)
+  - [Express.js](https://expressjs.com/)
+  - [Dotenv](https://www.npmjs.com/package/dotenv) para gerenciamento de variáveis de ambiente.
+  - [CORS](https://www.npmjs.com/package/cors) para habilitar requisições de diferentes origens.
+- **Frontend:**
+  - HTML5
+  - CSS3
+  - JavaScript (com `fetch` para requisições à API)
+- **API Externa:**
+  - OMDb API
+- **Hospedagem:**
+  - Render
 
 ---
 
-## 🚀 Como Executar Localmente
+## ⚙️ Como Executar o Projeto Localmente
 
-Siga os passos abaixo para rodar o projeto na sua máquina.
+Siga os passos abaixo para rodar a aplicação no seu ambiente de desenvolvimento.
 
 1.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
-    cd seu-repositorio
+    git clone https://github.com/seu-usuario/meu-explorador-filmes.git
+    cd meu-explorador-filmes
     ```
 
 2.  **Instale as dependências:**
@@ -45,23 +56,23 @@ Siga os passos abaixo para rodar o projeto na sua máquina.
     npm install
     ```
 
-3.  **Crie o arquivo de ambiente:**
-    *   Crie um arquivo chamado `.env` na raiz do projeto.
-    *   Dentro dele, adicione sua chave da API OMDb:
+3.  **Configure as variáveis de ambiente:**
+    - Crie um arquivo chamado `.env` na raiz do projeto.
+    - Adicione sua chave da OMDb API a ele:
       ```
       OMDB_API_KEY=sua_chave_aqui
       ```
 
 4.  **Inicie o servidor:**
     ```bash
-    node server.js
+    npm start
     ```
 
-5.  **Acesse a aplicação:**
-    Abra seu navegador e acesse `http://localhost:3000`.
+5.  Abra seu navegador e acesse `http://localhost:3000`.
 
 ---
 
-## Agradecimentos
+## 📄 Licença
 
-Este projeto utiliza dados fornecidos pela [OMDb API](https://www.omdbapi.com/).
+Este projeto está sob a licença ISC.
+
