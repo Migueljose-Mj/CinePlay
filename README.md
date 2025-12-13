@@ -36,5 +36,6 @@ A aplicação está no ar e pode ser acessada através do seguinte link:
   - OMDb API
 - **Hospedagem:**
   - Render
+
 ℹ️ Observação: o projeto está hospedado no plano gratuito do Render. 
 Na primeira visita após um período de inatividade, o carregamento pode levar alguns segundos.
